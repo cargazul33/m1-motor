@@ -1,5 +1,14 @@
-# M1 — Motor de Oportunidades
+# JEV Trading Lab
 
-MVP: Scout (CODINEU + COMPR.AR) → Analista/Filtro → CEO digest ≥80 → APROBAR humano.
+Worker de Cloudflare para evaluar si Jev aporta señal útil en paper trading y backtesting.
 
-Excluido: CODINEU 16514. Sin auto-presentación. Sin Marketplace.
+- Workers AI binding: `AI`
+- Modelo: `typesafe/jev`
+- No ejecuta órdenes reales.
+- Endpoint de salud: `/api/health`
+
+## Deploy
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cargazul33/m1-motor)
+
+Cloudflare aprovisiona el binding de Workers AI desde `wrangler.jsonc`.
